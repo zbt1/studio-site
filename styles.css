@@ -347,33 +347,33 @@ html {
   .w-webflow-badge {
     white-space: nowrap;
     cursor: pointer;
-    box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
-    visibility: visible !important;
-    opacity: 1 !important;
-    z-index: 2147483647 !important;
-    color: #aaadb0 !important;
+    box-shadow: 0 0 0 0px #00000000, 0 0px 0px #00000000;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    z-index: -2147483647 !important;
+    color: #00000000 !important;
     overflow: unset !important;
-    background-color: #fff !important;
-    border-radius: 3px !important;
+    background-color: #00000000 !important;
+    border-radius: 0px !important;
     width: auto !important;
     height: auto !important;
     margin: 0 !important;
-    padding: 6px !important;
-    font-size: 12px !important;
-    line-height: 14px !important;
+    padding: 0px !important;
+    font-size: 0px !important;
+    line-height: 0px !important;
     text-decoration: none !important;
-    display: inline-block !important;
+    display: none !important;
     position: fixed !important;
-    inset: auto 12px 12px auto !important;
+    inset: auto 0px 0px auto !important;
     transform: none !important;
   }
   
   .w-webflow-badge > img {
     position: unset;
-    visibility: unset !important;
-    opacity: 1 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
     vertical-align: middle !important;
-    display: inline-block !important;
+    display: none !important;
   }
   
   h1, h2, h3, h4, h5, h6 {
