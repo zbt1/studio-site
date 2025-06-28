@@ -571,7 +571,7 @@
           })
         );
       },
-      5543: function (e, t, a) {
+      8737: function (e, t, a) {
         a(9461),
           a(7624),
           a(286),
@@ -583,7 +583,7 @@
           a(5134),
           a(9858),
           a(7527),
-          a(8106);
+          a(1550);
       },
     },
     t = {};
@@ -654,7 +654,7 @@
     })(),
     (a.rv = () => "1.3.9"),
     (() => {
-      var e = { 233: 0 };
+      var e = { 971: 0 };
       a.O.j = (t) => 0 === e[t];
       var t = (t, n) => {
           var i,
@@ -673,8 +673,8 @@
       n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n)));
     })(),
     (a.ruid = "bundler=rspack@1.3.9");
-  var n = a.O(void 0, ["87", "362"], function () {
-    return a(5543);
+  var n = a.O(void 0, ["87", "654"], function () {
+    return a(8737);
   });
   n = a.O(n);
 })();
